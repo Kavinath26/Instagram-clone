@@ -1,0 +1,73 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "Thala_Ajith",
+        "profile_pic": "/src/assets/profile1.jpg"
+      },
+      "image": "/src/assets/post1.avif",
+      "caption": "God Bless U Maamey",
+      "likes": 4200000,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "mass thala"
+        },
+        {
+          "user": "mark_92",
+          "comment": "gbu maamey"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "Anaswara",
+        "profile_pic": "/src/assets/profile2.jpg"
+      },
+      "image": "/src/assets/post2.jpg",
+      "caption": "All the love in me is yours to keep! You left us with your paw prints engraved on our lives",
+      "likes": 89000,
+      "comments": [
+        {
+          "user": "ra_vbh",
+          "comment": "love you"
+        },
+        {
+          "user": "ab_girl",
+          "comment": "looking absolutely charming"
+        }
+      ],
+      "timestamp": "2025-02-12T22:10:00Z"
+    },
+
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "Mahi",
+        "profile_pic": "/src/assets/profile3.jpg"
+      },
+      "image": "/src/assets/post3.jpg",
+      "caption": "Thanks a lot for ur love and support throughout. from 1929 hrs consider me as Retired",
+      "likes": 80520000,
+      "comments": [
+        {
+          "user": "Virat_Kohli",
+          "comment": "The world has seen achievements, I've seen the person. Thanks for everything skip. I tip my hat to you"
+        },
+        {
+          "user": "msd_fan",
+          "comment": "Captain forever"
+        }
+      ],
+      "timestamp": "2025-02-14T07:45:00Z"
+    }
+  ]
+}
+
