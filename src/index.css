@@ -13,3 +13,30 @@
 .bi{
   margin-right: 10px;
 }
+
+.m-3{
+  font-size: larger;
+}
+
+.story{
+  height: 60px;
+}
+
+.dp{
+  height: 20px;
+  width: 20px;
+  margin-top: 3px;
+  margin-right: 5 px;
+}
+
+.name{
+  margin-left: 5px;
+}
+
+.image{
+  width: 300px;
+}
+
+.caption{
+  width: 300px;
+}
