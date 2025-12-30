@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React, { useState,useEffect } from 'react'
 
 function Suggestion() {
@@ -19,6 +20,12 @@ function Suggestion() {
           .catch(err=>console.log(err))
       },[])
 
+    const handlefollow=async(id,username)=>{
+      axios.post("http://localhost:8000/followers",{"id":id,"username":username})
+      .then(alert('Followed'))
+      .catch(err=>console.log(err))
+    }
+
   return (
     <div>
       <div className='suggestion w-75 m-4'>
@@ -30,6 +37,7 @@ function Suggestion() {
         </div>):(
         <div>Loading page</div>
         )}
+        <br />
         <div className='d-flex'>
           <p>Suggested for you</p>
           <b className='ms-auto'>See All</b>
@@ -42,7 +50,7 @@ function Suggestion() {
                     <div className='d-flex'>
                         <img className='dp rounded-circle' src={suggestion.profile_pic} alt='profile pic'/>
                         <h5 className='name'>{suggestion.username}</h5>
-                        <small className='text-primary ms-auto'>Follow</small>
+                        <a onClick={()=>handlefollow(suggestion.id,suggestion.username)} className='text-primary ms-auto'>Follow</a>
                     </div>
                 </div>
             )}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
   return (
@@ -7,12 +8,12 @@ function Sidebar() {
         <img className="Insta-text" src="/src/assets/Instagramtext.png" alt="" />
         <div><i className="bi bi-house-door"></i>Home</div>
         <div><i className="bi bi-search"></i>Search</div>
-        <div><i className="bi bi-compass"></i>Explore</div>
+        <div><Link to="/Explore" className='nav-item'><i className="bi bi-compass"></i>Explore</Link></div>
         <div><i className="bi bi-play-btn"></i>Reels</div>
         <div><i className="bi bi-chat-dots"></i>Message</div>
         <div><i className="bi bi-heart"></i>Notification</div>
         <div><i className="bi bi-plus-square"></i>create</div>
-        <div><i className="bi bi-person-circle"></i>Profile</div>
+        <div><Link to="/profile" className='nav-item'><i className="bi bi-person-circle"></i>Profile</Link></div>
       </div>
       <div className='position-fixed bottom-0 d-flex flex-column gap-3 mb-3'>
         <div><i className="bi bi-threads"></i>Threads</div>

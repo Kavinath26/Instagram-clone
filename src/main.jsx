@@ -4,6 +4,8 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 import Viewstory from './Viewstory.jsx'
+import Explore from './Explore.jsx'
+import Profile from './Profile.jsx'
 
 const router=createBrowserRouter(
   [
@@ -14,6 +16,14 @@ const router=createBrowserRouter(
     {
       path:'/story/:id/:tot',
       element:<Viewstory/>
+    },
+    {
+      path:'/Explore',
+      element:<Explore/>
+    },
+    {
+      path:'/profile',
+      element:<Profile/>
     }
   ]
 )
