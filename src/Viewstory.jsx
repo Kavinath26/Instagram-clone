@@ -20,10 +20,16 @@ function Viewstory() {
     }
 
   return (
-    <div>
+    <div> 
+        
         {story? <div className='d-flex justify-content-center align-items-center'>
             <Link to={'http://localhost:5173/story/'+(Number(id)-1)+'/'+tot}><i class="bi bi-arrow-left-circle-fill"></i></Link>
-            <img src={story.image} alt="story" className='vh-100' />
+            <div>
+                <h4>Story</h4>
+                <h6>{story?.user.username}</h6>
+                <img style={{height:'50px'}} src={story.image} alt="story" className='vh-100' />
+            </div>
+            
             <Link to={'http://localhost:5173/story/'+(Number(id)+1)+'/'+tot}><i class="bi bi-arrow-right-circle-fill"></i></Link>
         </div>:
         <div>Loading</div>}
