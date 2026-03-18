@@ -1,23 +1,61 @@
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/f8472944-f2ef-4c7a-b148-5894d726a9fc" />
+# Instagram Clone (Frontend)
+## Overview
 
-<br>
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/6d365eb8-6506-43a8-959d-514f3fe18237" />
+Developed a responsive frontend application inspired by Instagram, focusing on modern UI design, component-based architecture, and dynamic content rendering. The project demonstrates strong frontend development skills using React and emphasizes user-centric design.
+
+## Screenshots
+<img width="1919" height="1079" alt="Screenshot 2026-03-18 122620" src="https://github.com/user-attachments/assets/36ae6bd1-302f-4180-95b0-8fa27f6bb7a2" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-18 122630" src="https://github.com/user-attachments/assets/ade832af-55aa-42b6-9ef0-4cb37a4ffb5a" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-18 122928" src="https://github.com/user-attachments/assets/f7a08f1b-b898-479c-9b52-ea242587cb32" />
+<img width="1919" height="1079" alt="Screenshot 2026-03-18 122942" src="https://github.com/user-attachments/assets/02354f59-0d8c-4891-a5de-afea68fa2802" />
 
 
+## Key Features
 
-# React + Vite
+Implemented responsive post feed layout with reusable components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Designed Instagram-like UI with modern and clean styling
 
-Currently, two official plugins are available:
+Built dynamic content rendering for posts and user interactions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Developed click-to-view story feature with interactive story previews
 
-## React Compiler
+Enabled seamless navigation across different UI sections
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Optimized component structure for scalability and maintainability
 
-## Expanding the ESLint configuration
+## Technical Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React (Functional Components, Hooks)
+
+JavaScript (ES6+)
+
+HTML5
+
+CSS / TailwindCSS
+
+## Architecture
+
+The application follows a component-based architecture, enabling modular development and easy scalability. Each UI section (feed, posts, stories, navigation) is built as independent reusable components. State is managed using React Hooks to ensure efficient rendering and interaction handling.
+
+## Implementation Details
+
+Implemented reusable components for feed, stories, and navigation
+
+Built interactive story viewing functionality triggered on user click
+
+Used conditional rendering for dynamic UI updates
+
+Structured layout to replicate real-world social media applications
+
+## Future Enhancements
+
+Backend integration for real-time data
+
+User authentication and profile management
+
+Like, comment, and follow functionality
+
+Image upload and media handling
+
+Performance optimization and lazy loading
